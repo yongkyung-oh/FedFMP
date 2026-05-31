@@ -81,6 +81,7 @@ Federated learning · foundation models · large language models · personalizat
   publisher = {Association for Computing Machinery},
   address   = {Jeju Island, Republic of Korea},
   doi       = {10.1145/3770855.3818661},
+  isbn      = {979-8-4007-2259-2},
   note      = {Blue Sky Ideas Track}
 }
 ```
