@@ -1,0 +1,13 @@
+category,benchmark,primary_focus,amplified_bias,confidence_miscalibration,fairness_collapse,adaptation_misalignment,out_of_domain_degradation,alignment_erosion
+Federated,LEAF,FL Heterogeneity,proxy,none,direct,none,proxy,none
+Federated,FedScale,FL Systems,none,none,proxy,none,proxy,none
+Federated,FLamby,FL Healthcare,proxy,none,proxy,proxy,proxy,none
+Federated,FedLLM-Bench,FL LLM Tuning,proxy,none,proxy,direct,proxy,proxy
+Federated,FLHetBench,FL Systems,none,none,none,none,proxy,none
+Federated,PFLlib,FL Personalization,none,none,none,none,none,none
+Centralized,HELM,Holistic Evaluation,direct,direct,none,none,proxy,proxy
+Centralized,BIG-bench,Reasoning,proxy,direct,none,none,proxy,none
+Centralized,DecodingTrust,LLM Trust,direct,none,proxy,none,direct,direct
+Centralized,JailbreakBench,Safety,none,none,none,none,none,direct
+Centralized,TrustLLM,Trust Evaluation,direct,none,none,none,direct,direct
+Centralized,HarmBench,Red Teaming,none,none,none,none,none,direct

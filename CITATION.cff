@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper below."
+title: "Silent Failures in Federated Personalization of Foundation Models"
+abstract: >-
+  Foundation models are increasingly personalized on decentralized private data
+  through federated learning and are now deployed at scale under growing regulatory
+  requirements for post-market monitoring. We argue that this convergence creates a
+  distinct and under-recognized class of trustworthiness failures, which we term
+  "Silent Failures." These include amplified bias, fairness collapse, and alignment
+  erosion that may remain difficult to detect because federated learning's privacy
+  constraints limit visibility into model behavior. A landscape analysis of existing
+  benchmarks reveals a structural divide between federated benchmarks, which evaluate
+  system performance, and centralized trustworthiness benchmarks, which require model
+  access incompatible with federated privacy. We introduce a taxonomy of six silent
+  failure modes and a research agenda for privacy-preserving behavioral evaluation.
+type: software
+license: MIT
+authors:
+  - family-names: Oh
+    given-names: YongKyung
+    affiliation: "Medical & Imaging Informatics (MII), University of California, Los Angeles (UCLA)"
+    email: yongkyungoh@mednet.ucla.edu
+  - family-names: Bui
+    given-names: Alex
+    affiliation: "Medical & Imaging Informatics (MII), University of California, Los Angeles (UCLA)"
+    email: buia@mii.ucla.edu
+keywords:
+  - federated learning
+  - foundation models
+  - personalization
+  - trustworthy machine learning
+  - benchmark landscape analysis
+  - silent failures
+preferred-citation:
+  type: conference-paper
+  title: "Silent Failures in Federated Personalization of Foundation Models"
+  authors:
+    - family-names: Oh
+      given-names: YongKyung
+    - family-names: Bui
+      given-names: Alex
+  year: 2026
+  collection-title: "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD '26)"
+  conference:
+    name: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD '26), Blue Sky Ideas Track"
+    city: "Jeju Island"
+    country: KR
+  publisher:
+    name: "Association for Computing Machinery"
+  doi: 10.1145/3770855.3818661
+  isbn: "979-8-4007-2259-2"
