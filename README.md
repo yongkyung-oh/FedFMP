@@ -72,6 +72,8 @@ Federated learning · foundation models · large language models · personalizat
 
 ## Citation
 
+Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). To cite the paper:
+
 ```bibtex
 @inproceedings{oh2026silent,
   title     = {Silent Failures in Federated Personalization of Foundation Models},
