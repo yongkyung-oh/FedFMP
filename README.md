@@ -94,11 +94,16 @@ Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). To cite the pape
   publisher = {Association for Computing Machinery},
   address   = {Jeju Island, Republic of Korea},
   doi       = {10.1145/3770855.3818661},
-  isbn      = {979-8-4007-2259-2},
-  note      = {Blue Sky Ideas Track},
-  eprint    = {2606.00947},
-  archivePrefix = {arXiv},
   url       = {https://dl.acm.org/doi/10.1145/3770855.3818661}
+}
+
+@misc{oh2026silent_arxiv,
+  title     = {Silent Failures in Federated Personalization of Foundation Models},
+  author    = {Oh, YongKyung and Bui, Alex},
+  year      = {2026},
+  publisher = {arXiv},
+  doi       = {10.48550/arXiv.2606.00947},
+  url       = {https://arxiv.org/abs/2606.00947}
 }
 ```
 

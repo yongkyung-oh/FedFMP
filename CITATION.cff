@@ -26,12 +26,11 @@ authors:
     affiliation: "Medical & Imaging Informatics (MII), University of California, Los Angeles (UCLA)"
     email: buia@mii.ucla.edu
 keywords:
-  - federated learning
-  - foundation models
-  - personalization
-  - trustworthy machine learning
-  - benchmark landscape analysis
-  - silent failures
+  - Federated Learning
+  - Foundation Models
+  - Personalization
+  - Benchmark Landscape Analysis
+  - Silent Failures
 preferred-citation:
   type: conference-paper
   title: "Silent Failures in Federated Personalization of Foundation Models"
