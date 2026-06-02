@@ -15,6 +15,7 @@ abstract: >-
   failure modes and a research agenda for privacy-preserving behavioral evaluation.
 type: software
 license: MIT
+repository-code: "https://github.com/yongkyung-oh/FedFMP"
 authors:
   - family-names: Oh
     given-names: YongKyung
@@ -48,4 +49,12 @@ preferred-citation:
   publisher:
     name: "Association for Computing Machinery"
   doi: 10.1145/3770855.3818661
+  url: "https://dl.acm.org/doi/10.1145/3770855.3818661"
   isbn: "979-8-4007-2259-2"
+  identifiers:
+    - type: other
+      value: "arXiv:2606.00947"
+      description: "arXiv preprint identifier"
+    - type: doi
+      value: "10.48550/arXiv.2606.00947"
+      description: "arXiv preprint DOI"

@@ -4,8 +4,19 @@
 
 Companion repository for the ACM SIGKDD 2026 (KDD '26) Blue Sky Ideas paper by **YongKyung Oh** and **Alex Bui** (Medical & Imaging Informatics, UCLA).
 
+[![KDD 2026](https://img.shields.io/badge/KDD-2026-1f6feb.svg)](https://dl.acm.org/doi/10.1145/3770855.3818661)
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3770855.3818661-blue)](https://doi.org/10.1145/3770855.3818661)
-&nbsp;arXiv: _coming soon_ &nbsp;·&nbsp; License: [MIT](LICENSE) (code & docs)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.00947-b31b1b.svg)](https://arxiv.org/abs/2606.00947)
+
+**Official citation (preferred):** ACM SIGKDD Conference on Knowledge
+Discovery and Data Mining V.2 (KDD '26), Blue Sky Ideas Track.
+[Official ACM page](https://dl.acm.org/doi/10.1145/3770855.3818661) ·
+DOI: [10.1145/3770855.3818661](https://doi.org/10.1145/3770855.3818661)
+
+**arXiv preprint:** [arXiv:2606.00947](https://arxiv.org/abs/2606.00947),
+DOI: [10.48550/arXiv.2606.00947](https://doi.org/10.48550/arXiv.2606.00947)
+
+License: [MIT](LICENSE) (code & docs)
 
 ---
 
@@ -84,7 +95,10 @@ Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). To cite the pape
   address   = {Jeju Island, Republic of Korea},
   doi       = {10.1145/3770855.3818661},
   isbn      = {979-8-4007-2259-2},
-  note      = {Blue Sky Ideas Track}
+  note      = {Blue Sky Ideas Track},
+  eprint    = {2606.00947},
+  archivePrefix = {arXiv},
+  url       = {https://dl.acm.org/doi/10.1145/3770855.3818661}
 }
 ```
 
