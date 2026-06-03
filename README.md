@@ -8,12 +8,17 @@ Companion repository for the ACM SIGKDD 2026 (KDD '26) Blue Sky Ideas paper by *
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3770855.3818661-blue)](https://doi.org/10.1145/3770855.3818661)
 [![arXiv](https://img.shields.io/badge/arXiv-2606.00947-b31b1b.svg)](https://arxiv.org/abs/2606.00947)
 
-**Official citation (preferred):** ACM SIGKDD Conference on Knowledge
-Discovery and Data Mining V.2 (KDD '26), Blue Sky Ideas Track.
-[Official ACM page](https://dl.acm.org/doi/10.1145/3770855.3818661) ·
-DOI: [10.1145/3770855.3818661](https://doi.org/10.1145/3770855.3818661)
+> **Status: in press.** Accepted to **KDD '26** (Blue Sky Ideas Track). The
+> official ACM proceedings are not yet published and the **DOI is not yet
+> active** — the identifier below is the ACM-assigned DOI and will resolve once
+> the proceedings appear. **Until then, please cite the arXiv preprint.**
 
-**arXiv preprint:** [arXiv:2606.00947](https://arxiv.org/abs/2606.00947),
+**Venue:** ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2
+(KDD '26), Blue Sky Ideas Track ·
+[ACM page](https://dl.acm.org/doi/10.1145/3770855.3818661) ·
+assigned DOI (pending): [10.1145/3770855.3818661](https://doi.org/10.1145/3770855.3818661)
+
+**arXiv preprint (cite this for now):** [arXiv:2606.00947](https://arxiv.org/abs/2606.00947),
 DOI: [10.48550/arXiv.2606.00947](https://doi.org/10.48550/arXiv.2606.00947)
 
 License: [MIT](LICENSE) (code & docs)
@@ -39,6 +44,12 @@ The key word is **silent**: the failure is not only hard to *fix* — it is hard
 > **Privacy-preserving training is not, by itself, evidence of trustworthy deployment.**
 
 ## The six silent failure modes
+
+<p align="center">
+  <img src="assets/silent-failures-taxonomy.png" alt="Taxonomy of six silent failures in FedFMP grouped by causal layer: amplified bias and confidence miscalibration at the data level, fairness collapse and adaptation misalignment at the model level, and out-of-domain degradation and alignment erosion at the system level, with arrows indicating conceptual influence among the failure modes." width="640">
+</p>
+
+<p align="center"><em><strong>Figure 1.</strong> Taxonomy of six &ldquo;silent failures&rdquo; in FedFMP, grouped by causal layer (data &rarr; model &rarr; system). Solid arrows denote primary conceptual links; dashed arrows denote indirect feedback pathways.</em></p>
 
 A taxonomy organized by causal layer (data → model → system):
 
@@ -86,18 +97,21 @@ Federated learning · foundation models · large language models · personalizat
 Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). To cite the paper:
 
 ```bibtex
-@inproceedings{oh2026silent,
+@inproceedings{oh_silent_2026,
   title     = {Silent Failures in Federated Personalization of Foundation Models},
   author    = {Oh, YongKyung and Bui, Alex},
   booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD '26)},
   year      = {2026},
   publisher = {Association for Computing Machinery},
   address   = {Jeju Island, Republic of Korea},
+  note      = {In press; official ACM DOI assigned but not yet active},
   doi       = {10.1145/3770855.3818661},
   url       = {https://dl.acm.org/doi/10.1145/3770855.3818661}
 }
+```
 
-@misc{oh2026silent_arxiv,
+```bibtex
+@misc{oh_silent_2026_arxiv,
   title     = {Silent Failures in Federated Personalization of Foundation Models},
   author    = {Oh, YongKyung and Bui, Alex},
   year      = {2026},
