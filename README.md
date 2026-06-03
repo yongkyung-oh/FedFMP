@@ -49,7 +49,24 @@ The key word is **silent**: the failure is not only hard to *fix* — it is hard
   <img src="assets/silent-failures-taxonomy.png" alt="Taxonomy of six silent failures in FedFMP grouped by causal layer: amplified bias and confidence miscalibration at the data level, fairness collapse and adaptation misalignment at the model level, and out-of-domain degradation and alignment erosion at the system level, with arrows indicating conceptual influence among the failure modes." width="640">
 </p>
 
-<p align="center"><em><strong>Figure 1.</strong> Taxonomy of six &ldquo;silent failures&rdquo; in FedFMP, grouped by causal layer (data &rarr; model &rarr; system). Solid arrows denote primary conceptual links; dashed arrows denote indirect feedback pathways.</em></p>
+<p align="center"><em><strong>Figure 1.</strong> Taxonomy of six &ldquo;silent failures&rdquo; in FedFMP, grouped by causal layer.</em></p>
+
+<table align="center">
+  <tr>
+    <td>🟦 <strong>Data-level</strong></td>
+    <td>amplified bias · confidence miscalibration</td>
+  </tr>
+  <tr>
+    <td>🟩 <strong>Model-level</strong></td>
+    <td>fairness collapse · adaptation misalignment</td>
+  </tr>
+  <tr>
+    <td>🟥 <strong>System-level</strong></td>
+    <td>out-of-domain degradation · alignment erosion</td>
+  </tr>
+</table>
+
+<p align="center"><sub><strong>Arrows:</strong> solid (&rarr;) = primary conceptual link &nbsp;·&nbsp; dashed (⇢) = indirect feedback pathway &nbsp;—&nbsp; conceptual influence, not strict guarantees.</sub></p>
 
 A taxonomy organized by causal layer (data → model → system):
 
