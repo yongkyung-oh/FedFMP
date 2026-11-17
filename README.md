@@ -8,17 +8,14 @@ Companion repository for the ACM SIGKDD 2026 (KDD '26) Blue Sky Ideas paper by *
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3770855.3818661-blue)](https://doi.org/10.1145/3770855.3818661)
 [![arXiv](https://img.shields.io/badge/arXiv-2606.00947-b31b1b.svg)](https://arxiv.org/abs/2606.00947)
 
-> **Status: in press.** Accepted to **KDD '26** (Blue Sky Ideas Track). The
-> official ACM proceedings are not yet published and the **DOI is not yet
-> active** — the identifier below is the ACM-assigned DOI and will resolve once
-> the proceedings appear. **Until then, please cite the arXiv preprint.**
+> **Published in KDD '26** (Blue Sky Ideas Track), pp. 13199–13206.
 
 **Venue:** ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2
 (KDD '26), Blue Sky Ideas Track ·
 [ACM page](https://dl.acm.org/doi/10.1145/3770855.3818661) ·
-assigned DOI (pending): [10.1145/3770855.3818661](https://doi.org/10.1145/3770855.3818661)
+DOI: [10.1145/3770855.3818661](https://doi.org/10.1145/3770855.3818661)
 
-**arXiv preprint (cite this for now):** [arXiv:2606.00947](https://arxiv.org/abs/2606.00947),
+**arXiv preprint:** [arXiv:2606.00947](https://arxiv.org/abs/2606.00947),
 DOI: [10.48550/arXiv.2606.00947](https://doi.org/10.48550/arXiv.2606.00947)
 
 License: [MIT](LICENSE) (code & docs)
@@ -111,7 +108,7 @@ Federated learning · foundation models · large language models · personalizat
 
 ## Citation
 
-Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). To cite the paper:
+Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). Please cite the published proceedings paper:
 
 ```bibtex
 @inproceedings{oh_silent_2026,
@@ -121,11 +118,13 @@ Machine-readable metadata is in [`CITATION.cff`](CITATION.cff). To cite the pape
   year      = {2026},
   publisher = {Association for Computing Machinery},
   address   = {Jeju Island, Republic of Korea},
-  note      = {In press; official ACM DOI assigned but not yet active},
+  pages     = {13199--13206},
   doi       = {10.1145/3770855.3818661},
   url       = {https://dl.acm.org/doi/10.1145/3770855.3818661}
 }
 ```
+
+The arXiv preprint is also available:
 
 ```bibtex
 @misc{oh_silent_2026_arxiv,

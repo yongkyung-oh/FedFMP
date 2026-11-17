@@ -50,7 +50,8 @@ preferred-citation:
   doi: 10.1145/3770855.3818661
   url: "https://dl.acm.org/doi/10.1145/3770855.3818661"
   isbn: "979-8-4007-2259-2"
-  notes: "In press: official ACM proceedings not yet published and the assigned DOI is not yet active. Cite the arXiv preprint (arXiv:2606.00947) until the proceedings appear."
+  start: 13199
+  end: 13206
   identifiers:
     - type: other
       value: "arXiv:2606.00947"
